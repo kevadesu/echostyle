@@ -1,0 +1,3 @@
+# echostyle
+This is a CSS theme I made. It doesn't have much to it tbh...
+Well, the documentation is on its page itself
