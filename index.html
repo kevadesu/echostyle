@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Echostyle docs </title>
-        <link href="https://kevadesu.github.io/FirefoxInstaller.png">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    </head>
-    <body class="desk">
-        <div class="window">
-            <h1> echostyle documentation</h1>
-            <p> echostyle is a CSS theme for small portfolios that people decide to build </p>
-            <h2> "desk" class </h2>
-            <p> 
-                when you first import the CSS, you'll notice that there's nothing visible other than a white page.
-                to fix that, you'll need to add the following attribute to the &lt;body&gt; tag: 
-            </p>
-            <code>class="desk"</code>
-            <p> 
-                this class basically defines the background of the entire thing. 
-                you can modify the background image by either adding a "style" attribute,
-                or by tweaking the CSS file
-            </p>
-            <h2> "window" class </h2>
-            <p> 
-                the window class is used when making the main &lt;div&gt; containing the actual content of the portfolio. 
-                it can be set by adding the following attribute:
-            </p>
-            <code>class="window"</code>
-            <p>
-                for sanity, it's recommended to spawn only ONE window, it's going to be hell dealing with multiple if working with mobile as well.
-            </p>
-            <h2> buttons </h2>
-            <p>
-                buttons work both when defined as a button using the &lt;button&gt; tag AND &lt;a class="btn (or button)"&gt;.
-            </p>
-            <button> this is so swag (button tag)</button>
-            <br><small>deprecated</small>
-            <a class="button"> this is so swag (a class="button")</a>
-            <small>recommended</small>
-            <h2> code </h2>
-            <code><span>you spawn a normal one-line code block by using &lt;code&gt; text &lt;/code&gt;</span></code>
-            <small>deprecated</small>
-            <div class="codeblock">for code blocks, you spawn a div with the class "codeblock"</div>
-            <small>recommended</small>
-            <h2> how 2 add??!</h2>
-            <p> to add the CSS theme to your website, you'll need to include:
-                <li> the CSS itself </li>
-                <li> the "Fragment Mono" font </li>
-            </p>
-            <p> the easiest way to do this is by adding the following to &lt;head&gt;: </p>
-            <div class="codeblock">&lt;link rel="stylesheet" href="https://kevadesu.github.io/echostyle/style.css"&gt; 
-&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
-&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
-&lt;link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet"&gt;</div>
 
-            <p> Made by <a href="https://kevadesu.github.io">kevadesu</a>, 2024. <a href="https://github.com/kevadesu/Z6XdL/raw/refs/heads/main/LICENSE">The Z6XdL license applies.</a></p>
-        </div>
+<head>
+    <title> Echostyle docs </title>
+    <link href="https://kevadesu.github.io/FirefoxInstaller.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="desk">
+    <div class="window">
+        <h1> echostyle documentation</h1>
+        <p> echostyle is a CSS theme for small portfolios that people decide to build </p>
+        <center><a class="button" href="https://github.com/kevadesu/echostyle">&lt;/&gt; &middot; view the source code!</a></center>
+        <marquee scrollamount="16">NEW: it supports dark mode too now!!</marquee>
+        <h2> "desk" class </h2>
+        <p>
+            when you first import the CSS, you'll notice that there's nothing visible other than a white page.
+            to fix that, you'll need to add the following attribute to the &lt;body&gt; tag:
+        </p>
+        <code>class="desk"</code>
+        <p>
+            this class basically defines the background of the entire thing.
+            you can modify the background image by either adding a "style" attribute,
+            or by tweaking the CSS file
+        </p>
+        <h2> "window" class </h2>
+        <p>
+            the window class is used when making the main &lt;div&gt; containing the actual content of the portfolio.
+            it can be set by adding the following attribute:
+        </p>
+        <code>class="window"</code>
+        <p>
+            for sanity, it's recommended to spawn only ONE window, it's going to be hell dealing with multiple if
+            working with mobile as well.
+        </p>
+        <h2> buttons </h2>
+        <p>
+            buttons work both when defined as a button using the &lt;button&gt; tag AND &lt;a class="btn (or
+            button)"&gt;. although, if i were you, i'd use the a tag with the button class.
+        </p>
+        <button> this is so swag (button tag)</button>
+        <br><small>deprecated</small>
+        <br><a class="button"> this is so swag (a class="button")</a>
+        <br><small>recommended</small>
+        <h2> code </h2>
+        <code><span>you spawn a normal one-line code block by using &lt;code&gt; text &lt;/code&gt;</span></code>
+        <br><small>deprecated</small>
+        <br><div class="codeblock">for code blocks, you spawn a div with the class "codeblock"</div>
+        <br><small>recommended</small>
+        <h2> how 2 add??!</h2>
+        <p> to add the CSS theme to your website, you'll need to include:
+            <li> the CSS itself </li>
+            <li> the "Fragment Mono" font </li>
+        </p>
+        <p> the easiest way to do this is by adding the following to &lt;head&gt;: </p>
+        <div class="codeblock">&lt;link rel="stylesheet" href="https://kevadesu.github.io/echostyle/style.css"&gt;
+            &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+            &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+            &lt;link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap"
+            rel="stylesheet"&gt;</div>
+
+        <p> Made by <a href="https://kevadesu.github.io">kevadesu</a>, 2024. <a
+                href="https://github.com/kevadesu/Z6XdL/raw/refs/heads/main/LICENSE">The Z6XdL license applies.</a></p>
+    </div>
 
 
-    </body>
+</body>
+
 </html>
