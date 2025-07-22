@@ -11,6 +11,12 @@ body {
     padding: 0;
 }
 
+.notice {
+    background-color: rgb(255 255 255 / 0.4);
+    padding: 10px;
+    margin: 5px;
+}
+
 .desk {
     display: flex;
     justify-content: center;
@@ -83,16 +89,10 @@ code:hover,
 }
 
 @media (max-width: 1000px) {
-    .desk {
-        display: block;
-    }
-
     .window {
-        height: 100dvh;
-        width: 100vw;
+        width: 100%;
         max-width: none;
         min-width: auto;
-        box-sizing: border-box;
     }
 }
 
